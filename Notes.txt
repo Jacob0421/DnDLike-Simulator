@@ -1,8 +1,29 @@
-﻿
+﻿// Maybe Save State via JSON in documentsFolder
+// Add Config file for where filepaths have been set
+//Check if File Exists, if not then Add
 
-Config File:
-	Check if DnDDirectory exists:
-		if so:
-			Check if ConfigFile Exists
-		if not:
-			Create Directory
+// Weapon
+    // Weapon Damage
+    // Weapon Damage Type
+    // isRanged
+// Spell/Attack
+    // DamageMin
+    // DamageMax 
+    // Damage Type
+    // Description
+    // Move Type (Action, Bonus Action)
+    // RequiresSavingThrow?
+    // SavingThrowType
+    // AddSpell
+    // Advantage/Normal/Disadvantage
+// Character
+    // Character Class
+    // Character Level
+    // Hit Points
+    // Armor Class
+    // Primary Stats (Strength, Dex, Consitution, Intelligence, Wisdom, Charisma)
+// Battle
+    // Character
+    // Character Initiative
+    // Move Order
+    // IsAlive

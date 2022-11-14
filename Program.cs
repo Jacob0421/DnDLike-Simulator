@@ -4,6 +4,7 @@ using System.Text.Json.Serialization;
 using System.Xml;
 using System.Xml.Linq;
 using DnDLike_Simulator.Classes;
+using DnDLike_Simulator.Initilization;
 
 string filePath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
 string applicationDirectoryPath = filePath + "\\DnD_Simulator";
@@ -11,20 +12,7 @@ string applicationDirectoryPath = filePath + "\\DnD_Simulator";
 if (!Directory.Exists(applicationDirectoryPath))
     Directory.CreateDirectory(applicationDirectoryPath);
 
-string xmlFilePath = filePath + "\\DnD_Simulator\\FileConfig.xml";
-
-if (!File.Exists(xmlFilePath))
-{
-    XDocument xDocument = new XDocument(
-        new XElement("Config",
-            new XElement("File",
-                new XElement("Name", "Config"),
-                new XElement("Path", xmlFilePath))));
-    xDocument.Save(xmlFilePath);
-}
-
-
-XmlDocument xmlDoc = new XmlDocument();
+ConfigInitialization.CheckConfigXML();
 
 // Maybe Save State via JSON in documentsFolder
 // Add Config file for where filepaths have been set

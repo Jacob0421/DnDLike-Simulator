@@ -10,9 +10,10 @@ namespace DnDLike_Simulator.Classes
     {
         public string WeaponName { get; set; }
         public string AttackType { get; set; }
-        public int DiceType { get; set; } = 4;
         public int DiceAmount { get; set; } = 1;
+        public int DiceType { get; set; } = 4;
         public string DamageType { get; set; }
+        public Dictionary<string,string>? Requirements { get; set; }
 
         public int RollDamage()
         {

@@ -12,22 +12,14 @@ string applicationDirectoryPath = filePath + "\\DnD_Simulator";
 if (!Directory.Exists(applicationDirectoryPath))
     Directory.CreateDirectory(applicationDirectoryPath);
 
-ConfigInitialization.CheckConfigXML();
+ConfigInitialization.StartInitialization();
+
+WeaponInitialization.CheckForWeaponsList();
 
 // Maybe Save State via JSON in documentsFolder
 // Add Config file for where filepaths have been set
 //Check if File Exists, if not then Add
 
-List<Weapon> _weapons = new List<Weapon>();
-
-_weapons.Add(new Weapon
-{
-    WeaponName = "ShortSword",
-    AttackType = "Melee",
-    DiceAmount = 1,
-    DiceType = 6,
-    DamageType = "Piercing"
-}) ; 
 // Weapon
     // Weapon Damage
     // Weapon Damage Type

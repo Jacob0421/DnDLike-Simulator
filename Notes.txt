@@ -1,0 +1,8 @@
+﻿
+
+Config File:
+	Check if DnDDirectory exists:
+		if so:
+			Check if ConfigFile Exists
+		if not:
+			Create Directory

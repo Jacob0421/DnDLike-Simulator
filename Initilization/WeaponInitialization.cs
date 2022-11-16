@@ -55,7 +55,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "GreatClub",
+                WeaponName = "Great Club",
                 AttackType = "Melee",
                 DiceAmount = 1,
                 DiceType = 4,
@@ -101,7 +101,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "QuarterStaff",
+                WeaponName = "Quarterstaff",
                 AttackType = "Melee",
                 DiceAmount = 1,
                 DiceType = 6,

@@ -6,14 +6,16 @@ using System.Threading.Tasks;
 
 namespace DnDLike_Simulator.Classes
 {
-    internal class Weapon
+    internal class Weapon : Item
     {
         public string WeaponName { get; set; }
+        // Ranged/Melee/ Ranged/Melee
         public string AttackType { get; set; }
         public int DiceAmount { get; set; } = 1;
         public int DiceType { get; set; } = 4;
         public string DamageType { get; set; }
         public Dictionary<string,string>? Requirements { get; set; }
+
 
         public int RollDamage()
         {

@@ -2,6 +2,38 @@
 // Add Config file for where filepaths have been set
 //Check if File Exists, if not then Add
 
+for inventory:
+Umbrella Item Class that holds Name, and Weight
+Weapon => Item
+Consumable => item
+
+
+* = To-do
+
+Items
+Weapons
+*Consumables
+* Characters
+    * Feats
+        * Dictionary
+    * Races
+        * Maybe start with Base Player HB
+    * Leveling
+        * start with level 1-5
+    * Classes
+        * Abilities/level
+    * skills
+    * Add/Subtract health
+Attacks
+    * Spells : Attacks
+    * DamagingAbility : Attack
+        i.e. Sneak Attack
+    * Rolling damage with abilities/character specials
+
+
+
+
+
 // Weapon
     // Weapon Damage
     // Weapon Damage Type

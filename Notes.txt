@@ -14,6 +14,9 @@ Items
 Weapons
 *Consumables
 * Characters
+    [Done] Stats
+        [Done] Primary Stats: Strength, Dex, Consitution, Intelligence, Wisdom, Charisma
+        [Done] Secondary Stats (Skills): Acrobatics, Animal Handling, Arcana, Athletics, Deception, History, Intimidation, Investigation, Medicine, Nature, Perception, Performance, Persuasion, Religion, Sleight of Hand, Stealth, Survival
     * Feats
         * Dictionary
     * Races
@@ -23,7 +26,10 @@ Weapons
     * Classes
         * Abilities/level
     * skills
-    * Add/Subtract health
+    [Done] Add/Subtract health
+        [Done] when 0 IsUnconscious = true
+        [Done] if IsUnconscious and heal IsUnconscious = false
+    [Done] IsUnconscious
 Attacks
     * Spells : Attacks
     * DamagingAbility : Attack

@@ -126,6 +126,45 @@ namespace DnDLike_Simulator.Initilization
                 DamageType = "Piercing"
             });
 
+            _weapons.Add(new Weapon
+            {
+                WeaponName = "Light Crossbow",
+                AttackType = "Ranged",
+                DiceAmount = 1,
+                DiceType = 8,
+                DamageType = "Piercing",
+                Requirements = new Dictionary<string, string>() { { "Hands", "Two-Handed" } }
+            });
+
+            _weapons.Add(new Weapon
+            {
+                WeaponName = "Dart",
+                AttackType = "Ranged",
+                DiceAmount = 1,
+                DiceType = 4,
+                DamageType = "Piercing"
+            });
+
+            _weapons.Add(new Weapon
+            {
+                WeaponName = "Shortbow",
+                AttackType = "Ranged",
+                DiceAmount = 1,
+                DiceType = 6,
+                DamageType = "Piercing",
+                Requirements = new Dictionary<string, string>() { { "Hands", "Two-Handed" } }
+            });
+            
+
+            _weapons.Add(new Weapon
+            {
+                WeaponName = "Sling",
+                AttackType = "Ranged",
+                DiceAmount = 1,
+                DiceType = 4,
+                DamageType = "Bludgeoning"
+            });
+
 
             await using FileStream newFileStream = File.Create(_defaultWeaponsListLocation);
 

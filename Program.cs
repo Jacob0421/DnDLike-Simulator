@@ -2,8 +2,6 @@
 using DnDLike_Simulator.Initilization;
 
 
-
-
 string applicationDirectoryPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\DnD_Simulator";
 
 if (!Directory.Exists(applicationDirectoryPath))

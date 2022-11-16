@@ -28,7 +28,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "ShortSword",
+                Name = "ShortSword",
                 AttackType = "Melee",
                 DiceAmount = 1,
                 DiceType = 6,
@@ -37,7 +37,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "Club",
+                Name = "Club",
                 AttackType = "Melee",
                 DiceAmount = 1,
                 DiceType = 4,
@@ -46,7 +46,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "Dagger",
+                Name = "Dagger",
                 AttackType = "Melee",
                 DiceAmount = 1,
                 DiceType = 4,
@@ -55,7 +55,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "Great Club",
+                Name = "Great Club",
                 AttackType = "Melee",
                 DiceAmount = 1,
                 DiceType = 4,
@@ -65,7 +65,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "Handaxe",
+                Name = "Handaxe",
                 AttackType = "Melee/Ranged",
                 DiceAmount = 1,
                 DiceType = 6,
@@ -74,7 +74,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "Javelin",
+                Name = "Javelin",
                 AttackType = "Melee/Ranged",
                 DiceAmount = 1,
                 DiceType = 6,
@@ -83,7 +83,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "Light Hammer",
+                Name = "Light Hammer",
                 AttackType = "Melee/Ranged",
                 DiceAmount = 1,
                 DiceType = 4,
@@ -92,7 +92,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "Mace",
+                Name = "Mace",
                 AttackType = "Melee",
                 DiceAmount = 1,
                 DiceType = 6,
@@ -101,7 +101,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "Quarterstaff",
+                Name = "Quarterstaff",
                 AttackType = "Melee",
                 DiceAmount = 1,
                 DiceType = 6,
@@ -110,7 +110,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "Sickle",
+                Name = "Sickle",
                 AttackType = "Melee",
                 DiceAmount = 1,
                 DiceType = 4,
@@ -119,7 +119,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "Spear",
+                Name = "Spear",
                 AttackType = "Melee/Ranged",
                 DiceAmount = 1,
                 DiceType = 6,
@@ -128,7 +128,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "Light Crossbow",
+                Name = "Light Crossbow",
                 AttackType = "Ranged",
                 DiceAmount = 1,
                 DiceType = 8,
@@ -138,7 +138,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "Dart",
+                Name = "Dart",
                 AttackType = "Ranged",
                 DiceAmount = 1,
                 DiceType = 4,
@@ -147,7 +147,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "Shortbow",
+                Name = "Shortbow",
                 AttackType = "Ranged",
                 DiceAmount = 1,
                 DiceType = 6,
@@ -158,7 +158,7 @@ namespace DnDLike_Simulator.Initilization
 
             _weapons.Add(new Weapon
             {
-                WeaponName = "Sling",
+                Name = "Sling",
                 AttackType = "Ranged",
                 DiceAmount = 1,
                 DiceType = 4,

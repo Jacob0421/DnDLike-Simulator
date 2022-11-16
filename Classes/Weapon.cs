@@ -8,7 +8,6 @@ namespace DnDLike_Simulator.Classes
 {
     internal class Weapon : Item
     {
-        public string WeaponName { get; set; }
         // Ranged/Melee/ Ranged/Melee
         public string AttackType { get; set; }
         public int DiceAmount { get; set; } = 1;

@@ -11,19 +11,54 @@ Consumable => item
 * = To-do
 
 Items
-Weapons
-*Consumables
-* Characters
+    [Done] Weapons
+    * Consumables
+[Done] Characters
     [Done] Stats
         [Done] Primary Stats: Strength, Dex, Consitution, Intelligence, Wisdom, Charisma
         [Done] Secondary Stats (Skills): Acrobatics, Animal Handling, Arcana, Athletics, Deception, History, Intimidation, Investigation, Medicine, Nature, Perception, Performance, Persuasion, Religion, Sleight of Hand, Stealth, Survival
-    * Feats
-        * Dictionary
-    * Races
-        * Maybe start with Base Player HB
+    / Feats
+        / Dictionary
+        / Removing feats as they are too complicated to implement for the time being
+    [Done] Races
+        [Done] Dwarves, Elves, Halflings, Humans, DragonBorns, Gnomes, Half-Elves, Half-orcs, and tieflings
+        [Done] SubRaces
+            Dwarves: 
+                Hill Dwarves 
+                Mountain Dwarves
+            Elves: 
+                High Elves, 
+                Wood Elves, 
+                Dark Elves (Drow)
+            Halflings:
+                Lightfoot,
+                Stout
+            Humans:
+                Human,
+                Variant Human
+            DragonBorn
+            Gnomes:
+                Deep Gnomes,
+                Rock Gnomes
+            Half-Elves
+            Half-orcs
+            Tieflings
+                Asmodeus
+                Baalzebul
+                Dispater
+                Fierna
+                Glasya
+                Levistus
+                Mommon
+                Mephistopheles
+                Zariel
+                Variant
+
+
     * Leveling
         * start with level 1-5
     * Classes
+        * Barbarian, Bard, Cleric, Druid, Fighter, Monk, Paladin, Ranger
         * Abilities/level
     * skills
     [Done] Add/Subtract health

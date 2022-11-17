@@ -51,6 +51,25 @@ namespace DnDLike_Simulator.Initilization
                         throw new Exception("Error occured while adding weapons to config file: " + e);
                     }
                 }
+
+                if (!xmlDoc.Descendants("File").Where(x => x.Element("Name").Value == "Races").Any())
+                {
+                    try
+                    {
+                        XElement ConfigLevel = xmlDoc.Element("Config");
+                        string weaponsFilePath = _applicationDirectoryLocation + "\\Races.json";
+
+                        ConfigLevel.Add(
+                                new XElement("File",
+                                    new XElement("Name", "Races"),
+                                    new XElement("Path", weaponsFilePath)));
+                        xmlDoc.Save(_defaultConfigLocation);
+                    }
+                    catch (Exception e)
+                    {
+                        throw new Exception("Error occured while adding weapons to config file: " + e);
+                    }
+                }
             }
         }
     }

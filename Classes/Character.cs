@@ -11,11 +11,11 @@ namespace DnDLike_Simulator.Classes
         public int CharacterId { get; set; }
         public Dictionary<string, int> Classes { get; set; }
         public string Name { get; init; }
+        public string Race { get; init; }
+        public string SubRace { get; init; }
+        public int CharacterLevel { get; set; } = 1;
         public int MaxHealthPoints { get; set; }
         public int CurrentHealthPoints { get; set; }
-        public bool IsUnconscious { get; set; }
-        public int CharacterLevel { get; set; } = 1;
-        public Dictionary<Item, int> Inventory { get; set; }
         public Dictionary<string, int> PrimaryStats { get; set; } = new Dictionary<string, int>(){
             {"Strength", 8},
             {"Dexterity", 8},
@@ -44,6 +44,16 @@ namespace DnDLike_Simulator.Classes
             {"Stealth", 8},
             {"Survival", 8},
         };
+        public Dictionary<int , int> MaxSpellSlots { get; set; } = new Dictionary<int, int>()
+        {
+            { 0, 0},{ 1, 0},{ 2, 0},{ 3, 0},{ 4, 0},{ 5, 0},{ 6, 0},{ 7, 0},{ 8, 0},{ 9, 0}
+        };
+        public Dictionary<int, int> CurrentSpellSlots { get; set; } = new Dictionary<int, int>()
+        {
+            { 0, 0},{ 1, 0},{ 2, 0},{ 3, 0},{ 4, 0},{ 5, 0},{ 6, 0},{ 7, 0},{ 8, 0},{ 9, 0}
+        };
+        public bool IsUnconscious { get; set; }
+        public Dictionary<Item, int> Inventory { get; set; }
         public List<Effects> CurrentEffects { get; set; }
 
 
@@ -68,9 +78,9 @@ namespace DnDLike_Simulator.Classes
             throw new NotImplementedException();
         }
 
-        private int GetStatMod()
+        private int GetStatMod(int inputStat)
         {
-            throw new NotImplementedException();
+            return (int) Math.Floor((decimal) inputStat / 2);
         }
 
         private void AddHealth(int healthGained)

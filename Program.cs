@@ -8,5 +8,5 @@ if (!Directory.Exists(applicationDirectoryPath))
     Directory.CreateDirectory(applicationDirectoryPath);
 
 ConfigInitialization.StartInitialization();
-
 WeaponInitialization.CheckForWeaponsList();
+RaceInitialization.LoadRaces();

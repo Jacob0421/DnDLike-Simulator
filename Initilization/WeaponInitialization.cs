@@ -11,8 +11,7 @@ namespace DnDLike_Simulator.Initilization
 {
     internal class WeaponInitialization
     {
-        private static string _applicationDirectoryLocation = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\DnD_Simulator";
-        private static string _defaultWeaponsListLocation = _applicationDirectoryLocation + "\\Weapons.json";
+        private static string _defaultWeaponsListLocation = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "\\DnD_Simulator\\Weapons.json";
 
         public static void CheckForWeaponsList()
         {
